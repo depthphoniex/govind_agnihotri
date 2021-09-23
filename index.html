@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govind Agnihotri Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4ab4039204.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background">
+    <nav class="nave">
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+           <li><a class="acti" id="active" href="#">Home</a></li>
+           <li><a class="acti"  href="#about">About</a></li>
+           <li><a class="acti" href="#resume">Resume</a></li>
+           <li><a class="acti"  href="#project">Project</a></li>
+           <li><a class="acti"  href="#blog">Blog</a></li>
+           <li><a class="acti" href="#contact">Contact</a></li>
+        </ul>
+     </nav>
+     <script>
+        window.addEventListener('scroll', function () {
+            let header = document.querySelector('header');
+            let windowPosition = window.scrollY > 0;
+            header.classList.toggle('scrolling-active', windowPosition);
+        })
+    </script>
+     <section class="abou">
+         <h3>HEY! I AM</h3>
+         <h1>Govind Agnihotri</h1>
+         <h2>i'm a Web Devloper</h3>
+          <span class="sign"><i class="fab fa-linkedin-in "></i></span>
+           <span class="sign1"> <i class="fab fa-github"></i></span>
+           <span class="sign2"> <i class="fab fa-twitter"></i></span>
+     </section>
+    </div>
+    <div class="aboutme" id="about">
+        <h1>About Me</h1></br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus illum quisquam, est et ex numquam saepe odit rerum necessitatibus laudantium?</p></br></br>
+        <h2>Contact Details</h2></br>
+        <p>Govind Agnihotri</p></br>
+        <p>khejaro ka Rasta, Chandpol Bazar</p></br>
+        <p>Jaipur, Rajasthan, 302001</p></br>
+        <p>govindagnihotri098@gmail.com</p></br>
+        <p>+91 7742343803</p></br></br>
+        <button><a target="_blank" href="https://drive.google.com/file/d/14ZdwLIIkVOeBPFUyb5VB0HjnUxxT2i5j/view?usp=sharing"> <i class="fas fa-download"></i>    Download CV</a></button>
+         </div>
+         <div id="resume">
+         <div class="container">
+            <h1>skills</h1>
+            <ul>
+                <li class="html">html5</li>
+                <li class="css">css</li>
+                <li class="js">java script</li>
+                <li class="njs">Node JS</li>
+                <li class="rjs">ReactJS</li>
+                <li class="py">Python</li>
+                <li class="auto">AutoCad</li>
+                <li class="sw">Solid Work</li>
+                <li class="pc">PTC Creo</li>
+            </ul>
+        </div>
+        </div>
+        <div class="projectsection" id="project"> 
+            <h1>our projects</h1>
+            <h4>CHECK OUT SOME OF MY WORKS.</h4>
+            </section>
+            <section class="projects" >
+                <h3>how well do you know me?</h3>
+                <p>A CLI app built with nodeJS. You can send this to your friends and find out who really knows you</p></br>
+                <span class="off">
+                <a  target="_blank" href="https://replit.com/@Dark0Monster/do-you-know-me-quiz?embed=1&output=1" class="button-primary">Live Project</a></span>
+                <span class="offwhite">
+                <a class="offwhite" id="offwhite"  target="_blank" href="https://replit.com/@Dark0Monster/do-you-know-me-quiz" class="button-primary">view source</a></span>
+        
+            </section>
+            <section class="projects1" >
+                <h3>do you know the indian freedom fighter's</h3>
+                <p>do you know the indian freedom fighter's? Let's play a quiz and see.</p></br>
+                <span class="off">
+                <a target="_blank" href="https://replit.com/@Dark0Monster/indian-freedom-fighters-quiz?embed=1&output=1" class="button-primary">Live Project</a></span>
+                <span class="offwhite">
+                <a target="_blank" href="https://replit.com/@Dark0Monster/indian-freedom-fighters" class="button-primary">view source</a></span>
+            </section>
+            <section class="projects2" >
+                <h3>minionese</h3>
+                <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p></br>
+                <span class="off">
+                <a target="_blank" href="https://valyrian-translator-app18.netlify.app/" class="button-primary">live Project</a></span>
+                <span class="offwhite">
+                <a style="padding-left: 20px;" target="_blank" href="https://valyrian-translator-app18.netlify.app/" class="button-primary">view source</a></span>
+            </section>
+            <div class="more">
+            <a href="#">more projects</a>
+            </div>
+            </div> 
+            <div class="blogsection" id="blog"> 
+                <h1>my blogs</h1>
+                </section>
+                <section class="blogs" >
+                    <h3>dummy 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, error! </p></br>
+                    <a  target="_blank" href="#" class="button-primary">Live Project</a>
+                     </section>
+                <section class="blogs1" >
+                    <h3>dummy 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, magnam?</p></br>
+                    <a target="_blank" href="https://replit.com/@Dark0Monster/indian-freedom-fighters-quiz?embed=1&output=1" class="button-primary">Live Project</a>
+                   </section>
+                <section class="blogs2" >
+                    <h3>dummy 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit molestiae, voluptatibus provident quisquam saepe consectetur?</p></br>
+                    <a target="_blank" href="https://valyrian-translator-app18.netlify.app/" class="button-primary">live Project</a>
+                </section>
+                <div class="mor">
+                <a href="#">more blogs</a>
+                </div>
+                </div>
+            <footer class="foot" id="contact">
+                <span class="sin"><i class="fab fa-linkedin-in "></i></span>
+           <span class="sin1"> <i class="fab fa-github"></i></span>
+           <span class="sin2"> <i class="fab fa-twitter"></i></span>
+           <h3>made by govind agnihotri</h3>
+            </footer> 
+</body>
+</html>
