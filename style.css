@@ -6,7 +6,7 @@
   font-family: 'Montserrat', sans-serif;
 } 
 .background{
-  background: url("images/background1.jpg") , no-repeat;
+  background: url("images/background2.jpg") , no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center;
@@ -159,7 +159,7 @@ color: royalblue;
 }
 .aboutme{
   padding:25px 70px 25px 45%;
-  background:url("images/background2.jpg");
+  background:url("images/background1.jpg");
   background-size: cover;
   background-position: center;
   color:white;
